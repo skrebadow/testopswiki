@@ -1,11 +1,11 @@
-# 🦖 TestOps Case Study: Jurassic Park – The Ethics of Access and the Illusion of Control  
+# TestOps Case Study: Jurassic Park – The Ethics of Access and the Illusion of Control  
 **Theme:** Role-Based Access Control (RBAC) Testing, Security Testing, and the Chaos of Overconfidence  
 **Franchise:** Jurassic Park (1993)  
 **Word Count:** ≈ 3,100  
 
 ---
 
-## 🧬 Overview  
+##  Overview  
 
 *Jurassic Park* wasn’t a failure of science — it was a failure of **testing and access control**.  
 The systems worked exactly as designed; the designers never tested how they might fail under real-world stress, sabotage, or ethical ambiguity.  
@@ -18,7 +18,7 @@ It was caused by missing negative test cases.
 
 ---
 
-## 🎬 Scene Summary (for Context)  
+##  Scene Summary (for Context)  
 
 - *Jurassic Park* is an island theme park populated by cloned dinosaurs controlled via central computer systems.  
 - The park runs on a limited access-control structure, managed entirely by one developer (Dennis Nedry).  
@@ -28,7 +28,7 @@ It was caused by missing negative test cases.
 
 ---
 
-## 🧩 Key Quote  
+##  Key Quote  
 
 > “I spared no expense.” — *John Hammond*  
 >  
@@ -36,7 +36,7 @@ It was caused by missing negative test cases.
 
 ---
 
-## ⚙️ The System Architecture (Simplified)  
+##  The System Architecture (Simplified)  
 
 | Layer | Function | Real-World Equivalent | Risk |
 |--------|-----------|-----------------------|------|
@@ -50,7 +50,7 @@ The park represents a **monolithic, non-segmented architecture** with a single R
 
 ---
 
-## 🧪 Testing Focus Areas  
+##  Testing Focus Areas  
 
 1. **RBAC Testing (Role-Based Access Control)**  
 2. **Security and Penetration Testing**  
@@ -62,7 +62,7 @@ Each failure in the film ties to a missing test discipline.
 
 ---
 
-## 🧱 Part I – RBAC Testing: The Root Cause  
+##  Part I – RBAC Testing: The Root Cause  
 
 ### What Went Wrong  
 
@@ -99,7 +99,7 @@ For every permission granted, test three denials — one accidental, one malicio
 
 ---
 
-## 🧱 Part II – Security Testing  
+##  Part II – Security Testing  
 
 ### Missing Tests  
 
@@ -124,7 +124,7 @@ The only functioning safeguard was a child with curiosity — *exploratory testi
 
 ---
 
-## 🧱 Part III – Load and Failover Testing  
+##  Part III – Load and Failover Testing  
 
 ### What Went Wrong  
 
@@ -152,7 +152,7 @@ Failover is not a button; it’s an ecosystem.
 
 ---
 
-## 🧱 Part IV – Integration Testing  
+##  Part IV – Integration Testing  
 
 Jurassic Park’s systems worked in silos: genetics, security, control room, and field ops.  
 No one tested **inter-system dependencies**.  
@@ -169,7 +169,7 @@ Integration testing is ethical testing — because disconnected systems cost liv
 
 ---
 
-## 🧱 Part V – Chaos Testing  
+##  Part V – Chaos Testing  
 
 Chaos engineering asks: *What if everything fails?*  
 Hammond’s park never ran a single chaos simulation.  
@@ -191,7 +191,7 @@ QA translation: your production environment shouldn’t devour end users when th
 
 ---
 
-## 🧠 Ethical Implications  
+##  Ethical Implications  
 
 ### 1. The Myth of 100% Coverage  
 
@@ -237,7 +237,7 @@ Disgruntled maintainers are untested attack vectors.
 
 ---
 
-## 🧩 Testing Lessons by Role  
+##  Testing Lessons by Role  
 
 | Role | Ethical Focus | Testing Responsibility |
 |------|----------------|------------------------|
@@ -269,7 +269,7 @@ Disgruntled maintainers are untested attack vectors.
 
 ---
 
-## 🧾 Consolidated Lessons  
+##  Consolidated Lessons  
 
 | Area | Key Takeaway | Movie Analogy |
 |-------|----------------|----------------|
@@ -282,7 +282,7 @@ Disgruntled maintainers are untested attack vectors.
 
 ---
 
-## 🧭 Final Reflection  
+##  Final Reflection  
 
 *Jurassic Park* endures not because dinosaurs roam again, but because its moral is timeless for testers:  
 
